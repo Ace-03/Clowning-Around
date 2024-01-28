@@ -168,9 +168,9 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 0}
-  happy: {fileID: 0}
-  neutral: {fileID: 0}
+  angry: {fileID: 5791600790458945441, guid: 0a687d115bb127f4587486cfba3cb63d, type: 3}
+  happy: {fileID: -3869650606766680645, guid: 0a9b7a31a2ef0684c97d70918320bdc8, type: 3}
+  neutral: {fileID: 5791600790458945441, guid: 0a687d115bb127f4587486cfba3cb63d, type: 3}
   img: {fileID: 5609762169867788449}
   anim: {fileID: 8128046746573009755}
   likeablility: 0

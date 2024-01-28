@@ -162,9 +162,9 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
-  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
-  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  angry: {fileID: -2182763034866726891, guid: 4426c406e4509034290cd6e584c945e7, type: 3}
+  happy: {fileID: 1351296572449217183, guid: 7d6f38661e381284084682a11f6daca5, type: 3}
+  neutral: {fileID: -3209777392073540264, guid: 639f97df553c19a479aa8fb6fdc6286b, type: 3}
   img: {fileID: 5082205642723180744}
   anim: {fileID: 9155397105466101623}
   likeablility: 0

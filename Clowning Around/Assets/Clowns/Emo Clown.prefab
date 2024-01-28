@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 445.8203, y: 995.9668}
+  m_SizeDelta: {x: 833, y: 947}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1478446446738343854, guid: 0a83d5d24e0593a4390df4bb4f203f65, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -179,9 +179,9 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
-  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
-  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  angry: {fileID: -2640277286815643600, guid: b922a2a166ae6a849bba6bdeebe75ca3, type: 3}
+  happy: {fileID: -3030440439836020587, guid: 4028cff03f664e148b92015cd78d1fa5, type: 3}
+  neutral: {fileID: 1478446446738343854, guid: 0a83d5d24e0593a4390df4bb4f203f65, type: 3}
   img: {fileID: 5082205642723180744}
   anim: {fileID: 9155397105466101623}
   likeablility: 0

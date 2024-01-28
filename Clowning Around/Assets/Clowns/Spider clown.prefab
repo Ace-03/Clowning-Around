@@ -157,9 +157,9 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
-  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
-  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  angry: {fileID: 6346487170511130841, guid: e83c19983662c1f41bfd49241da5c9d1, type: 3}
+  happy: {fileID: 7065636941867653172, guid: 00015d375bf29224d998dfa55b4124b7, type: 3}
+  neutral: {fileID: 5978077973728925264, guid: 8af6321c7da167d4f880a608a77c5496, type: 3}
   img: {fileID: 5082205642723180744}
   anim: {fileID: 9155397105466101623}
   likeablility: 0
