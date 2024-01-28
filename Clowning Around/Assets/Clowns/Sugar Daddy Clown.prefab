@@ -150,8 +150,11 @@ MonoBehaviour:
     - Yes, uncomfortable.
     - '*sighs* Why?'
   goodbye:
-    goodEnding: Suagr Daddy is happy
-    badEnding: Suagr Daddy is sad
+    goodEnding: Before Sugar Daddy Clown leaves the train car he stops right beside
+      you. He slides a wad of money onto your lap smiles at you and walks out.
+    badEnding: Sugar Daddy Clown stands up and straightend his suit jacket. A hundred
+      dollar bill falls out of it and your eyes widen. He slowly picks it up while
+      looking down on you and exits the train car.
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0

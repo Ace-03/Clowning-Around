@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082205642723180746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082205642723180747}
+  - component: {fileID: 5082205642723180745}
+  - component: {fileID: 5082205642723180744}
+  - component: {fileID: 5082205642723180750}
+  m_Layer: 5
+  m_Name: Jerry from Accounting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5082205642723180747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 860, y: 992}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &5082205642723180745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_CullTransparentMesh: 1
+--- !u!114 &5082205642723180744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6663752066968097959, guid: 6e0f9fa0d89316646b6122d68622448c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5082205642723180750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Jerry
+  dialogues:
+  - question: 
+    dialogueOne:
+    - "What\u2019s an accountant\u2019s favorite Shakespeare play?"
+    - Double, Double, Income, Trouble. Bu Dum Tsss.
+    - Why did the accountant break up with the calculator?
+    - "It just didn\u2019t add up anymore. Bu Dum Tsss."
+    - It's okay. I know it's hard to contain your laughter. It's all because of me.
+      Jerry. Jerry from accounting.
+    dialogueTwo: []
+  - question: Dangit, I should have thought of that.
+    dialogueOne:
+    - "Yes, you are so right. I\u2019ll make sure to credit you. Can\u2019t go stealing
+      your work."
+    - "No can do. I can\u2019t let you be invisible. I used to be invisible but I
+      gave it up. I just couldn\u2019t see myself doing it anymore. Bu Dum Tsss."
+    - Okay so moving on, what kind of music do you like?
+    - Why did the music teacher get kicked out of the band?
+    dialogueTwo:
+    - "No it\u2019s okay I like coming up with my material."
+    - "I\u2019m not sure why but it's okay you don\u2019t have to tell me."
+    - Ba ha ha ha ha. Please can we move one?
+    - Okay so moving on, what kind of music do you like?
+    - Why did the music teacher get kicked out of the band?
+  - question: Because he was always flat! Bu Dum Tsss.
+    dialogueOne:
+    - You did! I mean you did.
+    - "Well if those are the kind of jokes you like there\u2019s more where that
+      came from."
+    dialogueTwo:
+    - Next time we meet up there will be a whole list.
+    - It was better than an answer. It was a well-crafted joke.
+    - "ITS JAKE and the only thing I\u2019m sticking to is acclownting. Good day.
+      Hmph."
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - Umm, A Midnight Summer Dream?
+    - Okay.
+    - Why?
+    - Alright.
+    - Oh, really. I think Jake from acclownting would be funnier.
+    responsesTwo: []
+  - choice1: " Yeah, I guess. It\u2019s a pretty obvious joke. I can give you more
+      if you want."
+    choice2: "It\u2019s okay it just means you can add it to your act."
+    responsesOne:
+    - "It\u2019s okay it just means you can add it to your act."
+    - "Oh why thank you. That is very nice of you but I don\u2019t mind being a ghost
+      writer for this one."
+    - " \u2026\u2026\u2026.."
+    - Hmm, I kind of listen to everything for the most part. How about you?
+    - " I thought I was the one asking you a questio\u2026"
+    responsesTwo:
+    - Oh I got one. Why did Jake from St**e F**m become a comedian?
+    - "because he knew all the \u201Ccoverage\u201D for a good laugh."
+    - Wow, I guess that joke was really funny. Should I tell another?
+    - Hmm, I kind of listen to everything for the most part. How about you?
+    - " I thought I was the one asking you a questio\u2026"
+  - choice1: "That didn\u2019t even relate to the question I asked you."
+    choice2: Oh, I get it.
+    responsesOne:
+    - Oh, I get it. I see what you did there.
+    - Yes I did.
+    - Oh okay.
+    responsesTwo:
+    - "That didn\u2019t even relate to the question I asked you."
+    - "Jerry don\u2019t you think it would be best if you stuck to accounting?"
+  goodbye:
+    goodEnding: "Jake from Accounting stands up from the table and tries to give
+      you a high five. When you don\u2019t respond he lowers his hand with a smile
+      and moves out his seat. He trips on his way to the door but eventually makes
+      it."
+    badEnding: Jake from Accounting stands up and makes a dramatic turn. He bumps
+      into multiple passengers on the way out and eventually gets to the door.
+  correctResponse: 0200000002000000
+  numChoices: 2
+  index: 0
+  outdex: 0
+  good: 1
+  CurChoice: 0
+  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
+  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
+  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  likeablility: 0
+  red: 1
+  green: 1
+  onChoice: 0
+  whotalked: 0

@@ -187,8 +187,12 @@ MonoBehaviour:
     - "I guess\u2026 I wouldn\u2019t\u2026"
     - "I need a shower\u2026"
   goodbye:
-    goodEnding: Morse Code Clown is happy
-    badEnding: Morse Code Clown is sad
+    goodEnding: Morse Code Clown stands up from his seat to leave but ends up talking
+      to every other passenger he sees. He eventually reaches the door to leave after
+      20 minutes.
+    badEnding: 'You look at Morse Code Clown confused as he continues jittering away
+      outside of the train car. No matter how far he gets you can still hear the
+      faint flickering of him talking. '
   correctResponse: 0100000002000000
   numChoices: 2
   index: 0

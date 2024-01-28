@@ -159,10 +159,10 @@ MonoBehaviour:
     - Stop talking to the horse, he is the victim! Randy, if you need help let me
       know. *Reaches out to grab Randy but he smacks my hand away*
   goodbye:
-    goodEnding: He jumps in the air and starts doing a little cowboy dance, are you
-      sure you made the right choice?
-    badEnding: He spits on the ground and storms off, mumbling something about women
-      being awful.
+    goodEnding: He smiles broadly and winks at you while tipping his hat. Him and
+      Randy walk side by side into the next train car.
+    badEnding: "He grabs Randy and hops. He rides his horse off into the sunset.
+      Well\u2026 into the next train car.  "
   correctResponse: 0100000002000000
   numChoices: 2
   index: 0

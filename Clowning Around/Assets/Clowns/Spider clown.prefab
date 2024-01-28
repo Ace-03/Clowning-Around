@@ -148,8 +148,11 @@ MonoBehaviour:
     - "But if that\u2019s what you want I suppose it\u2019s fine!! *Shoot, I think
       that comment was a little insensitive\u2026*"
   goodbye:
-    goodEnding: Spider is happy
-    badEnding: Spider is sad
+    goodEnding: Spider Clown does a little dance, and hops off the table. You worry
+      for his safety, what with him being so small.
+    badEnding: Spider Clown sadly crawls off the table and into one of the corners
+      of the train cars. He seems to have been traumatized by the encounter with
+      you. You feel a bit bad.
   correctResponse: 0200000002000000
   numChoices: 2
   index: 0

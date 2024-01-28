@@ -154,8 +154,10 @@ MonoBehaviour:
     - "I\u2019m sorry did you say \u201Cthe flavors of the earth?\u201D Are you telling
       me you don\u2019t wash them at all? That\u2019s very unsanitary. "
   goodbye:
-    goodEnding: 
-    badEnding: 
+    goodEnding: He stands up stretching near his hat shyly. He takes his straw hand
+      and ruffles your hair leaving stray pieces of straw in it before he leaves.
+    badEnding: He rustles as he stands up. Shaking his head at you in disappointment.
+      He slowly walks to the door as stray straw falls from his hands.
   correctResponse: 0100000001000000
   numChoices: 2
   index: 0

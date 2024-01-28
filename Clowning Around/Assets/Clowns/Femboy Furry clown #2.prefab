@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5082205642723180744}
   - component: {fileID: 5082205642723180750}
   m_Layer: 5
-  m_Name: PoorlyDrawn Clown
+  m_Name: Femboy Furry clown #2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 859, y: 941}
+  m_SizeDelta: {x: 534, y: 866}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3043186698250464521, guid: 5c5c1339099fd55489d9748117fe0b9f, type: 3}
+  m_Sprite: {fileID: -9016447882297609701, guid: fc6e554239d18dd4a9282263277cba90, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88,72 +88,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: PoorlyDrawn
+  Name: Femboy Furry
   dialogues:
   - question: 
-    dialogueOne: []
+    dialogueOne:
+    - "Well hey there, Fluffbutt, how\u2019s it going?"
     dialogueTwo: []
-  - question: "He- Hello, my name is Poorly Drawn Clown\u2026 Nice to meet you!"
+  - question: "Well anyway, let\u2019s get this show on the road. I\u2019m here to
+      clown around and I want you to join me. "
     dialogueOne:
-    - "That\u2019s kind of a weird name."
-    - "Ha! you\u2019re right. Neither of us are very well defined. I guess we have
-      that in common. So\u2026.. Uh\u2026.."
-    - "Y- Yeah I live about 30 minutes north of here. It\u2019s a really nice area
-      and I just repainted my house too. Here take a look! It\u2019s not great\u2026
-      but I think it looks nice\u2026"
+    - "That\u2019s what I like to hear. Now ask me about myself."
+    - Think about it. All the attention, you get to look good, and people love you.
+      Why not be a clown?
+    - 'My brother and I went to the same school, surprised the stuttering fool even
+      graduated. '
+    - Psh, whatever.
     dialogueTwo:
-    - "Why would you say that!? I\u2019m sorry... I just look like this."
-    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
-  - question: The clown hands you a simplistic crayon drawing of a house*
+    - Yeah, uh huh, whatever you say, Fluffbutt.
+  - question: "I\u2019m definitely a guy\u2019s guy, everyone\u2019s friend. I\u2019m
+      the most humble, down-to-earth guy you\u2019ll ever meet. "
     dialogueOne:
-    - "Thanks I put a lot of time into painting it. Most people get really weird
-      about my house when I show them it. I\u2019m glad you\u2019re different though."
-    - Exactly! I always feel like no one knows what it's like to be poorly drawn.
-    - "One second\u2026 uh\u2026 I\u2019m sorry\u2026 looks like I need to get going.
-      C-Can I get some kind of contact info\u2026 or something."
+    - "Good, I\u2019ve worked hard to get where I am and to know who I know. I want
+      it to show. "
+    - " I think we\u2019ve really hit it off. Why don\u2019t you call me later, Fluffbutt?
+      We could go get dinner sometime."
+    - "I\u2019m too good for you, Fluffbutt. I\u2019m outta here. "
     dialogueTwo:
-    - "No\u2026 that's actually a photo."
-    - What?
-    - "It\u2019s a photo of my house."
-    - "C-Can we just move onto something else\u2026"
-    - "Y-You know what, I-I think I should go. This isn\u2019t working out\u2026"
+    - Of course I am, how dare you question me, Fluffbutt.
+    - " I think we\u2019ve really hit it off. Why don\u2019t you call me later, Fluffbutt?
+      We could go get dinner sometime."
+    - "I\u2019m too good for you, Fluffbutt. I\u2019m outta here. "
   responses:
   - choice1: 
     choice2: 
-    responsesOne: []
+    responsesOne:
+    - He-
     responsesTwo: []
-  - choice1: Nice to meet you
-    choice2: Why do you look like that??
+  - choice1: Uh, sure?
+    choice2: Absolutely not.
     responsesOne:
-    - Nice to meet you poorly drawn clown. My name is *********.
-    - Well that makes two of us.
-    - "So then, are you from around here? I see lots of strange folks around here
-      but you\u2019re very unique uh\u2026 looking?"
+    - Uh, sure?
+    - So uh, what made you want to become a clown?
+    - "I see. How\u2019d you learn about everything?"
+    - "That\u2019s a bit rude, don\u2019t you think?"
+    - How would you describe yourself?
     responsesTwo:
-    - Why do you look like that??
-    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
-  - choice1: Oh, so this is like a drawing of your house?
-    choice2: Wow!
+    - Absolutely not.
+    - "*Jeeze, what a jerk\u2026*"
+    - How would you describe yourself?
+  - choice1: I can see that!
+    choice2: You sure about that?
     responsesOne:
-    - Wow! I actually think that looks really nice! Very blue!
-    - Of course! I understand how it feels when people can be overly critical about
-      your work.
-    - "Yeah, it\u2019s definitely a unique situation."
+    - I can see that!
+    - "I\u2019d love that!"
     responsesTwo:
-    - Oh, so this is like a drawing of your house? So then I guess you painted it
-      blue?
-    - Huh?
-    - "What do you mean it\u2019s a photo?"
-    - "No, that's clearly a drawing. I can even tell that you used crayon, and look!
-      The house has one window and a door and it\u2019s not even three dimensional."
-    - "\u2026"
+    - You sure about that? *raises an eyebrow*
+    - "Sorry, you just haven\u2019t been very humble like you claim to be during
+      this entire interaction. "
+    - "I\u2019d love that!"
   goodbye:
-    goodEnding: The Poorly Drawn Clown nervously runs to the door leaving crayon
-      marks on everything that he touches. In his frantic run he his the door leaving
-      clown makeup on the glass and hurriedly runs through hoping no on would notice.
-    badEnding: ' The Poorly Drawn Clown takes off leaving the drawn photo of his
-      house behind for you to remember him by.'
-  correctResponse: 0100000002000000
+    goodEnding: "Furry Femboy Clown smirks at you, slides you his number on a piece
+      of wrinkled paper, and walks away. He doesn\u2019t look back at you."
+    badEnding: "Furry Femboy Clown smacks you with his tail as he\u2019s leaving,
+      and proceeds to \u201Caccidentally\u201D hit everyone else on the train as
+      he walks down the aisle."
+  correctResponse: 0100000001000000
   numChoices: 2
   index: 0
   outdex: 0
@@ -163,7 +162,7 @@ MonoBehaviour:
   happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
   likeablility: 0
-  red: 1
-  green: 3
+  red: 2
+  green: 1
   onChoice: 0
   whotalked: 0

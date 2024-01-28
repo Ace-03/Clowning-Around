@@ -163,8 +163,11 @@ MonoBehaviour:
     - "Well, it wasn\u2019t very funny, but I get it. Maybe that wasn\u2019t the
       best joke to tell when you first meet someone."
   goodbye:
-    goodEnding: Himbo is happy
-    badEnding: Himbo is sad
+    goodEnding: Himbo Clown stands up with the brightest smile on his face. He winks
+      at you and leaves the train car trying to squeeze in between seats.
+    badEnding: 'Himbo Clown rises stiffly trying to keep a smile on his face. He
+      hits the ceiling but continues to laugh as he hits every train seat trying
+      to exit the car. '
   correctResponse: 0100000002000000
   numChoices: 2
   index: 0

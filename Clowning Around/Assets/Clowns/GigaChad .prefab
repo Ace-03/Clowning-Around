@@ -159,8 +159,11 @@ MonoBehaviour:
       and pulled it towards him. "
     - "Goodbye. Your \u2026 Chadness. His \u2026. Chadness.  "
   goodbye:
-    goodEnding: 
-    badEnding: 
+    goodEnding: Giga chad rises from his seat. He drags his hand down your entire
+      face then winks. Before he starts walking away he drags two fingers from his
+      ear down his jawline just to show you then saunters off.
+    badEnding: He looks back at you with a flash of his jawline and continues his
+      path.
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0

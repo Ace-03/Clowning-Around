@@ -147,10 +147,11 @@ MonoBehaviour:
       You\u2019re really letting all this bubble up to the surface. I guess we\u2019re
       done here."
   goodbye:
-    goodEnding: The fish goes "blub blub" and vanishes from the table.  Is he a clown
-      or a magician?
-    badEnding: The fish tells youi to die and then vanishes from the table.  Are
-      you okay girl?
+    goodEnding: He does a little flip in his bowl causing the rainbow wig to fall
+      on top tightly. He then hurls his body at the side and begins to roll away.
+    badEnding: "His bowl grows little legs and hops him off the table. He scurries
+      to the door but has to wait for the next person to open it since he can\u2019t
+      reach."
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0
@@ -162,6 +163,6 @@ MonoBehaviour:
   neutral: {fileID: -1533801096998934899, guid: ef4c1287de68bef47a1eaa3f2816c9db, type: 3}
   likeablility: 0
   red: 0
-  green: 3
+  green: 0
   onChoice: 0
   whotalked: 0

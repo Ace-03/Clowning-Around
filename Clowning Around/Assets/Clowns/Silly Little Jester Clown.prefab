@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5082205642723180744}
   - component: {fileID: 5082205642723180750}
   m_Layer: 5
-  m_Name: Defult Clown
+  m_Name: Silly Little Jester Clown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 445.8203, y: 995.9668}
+  m_SizeDelta: {x: 783, y: 989}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  m_Sprite: {fileID: 7387821524065510976, guid: ecee95bca527d0a4c97f22db13109a7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88,34 +88,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Defult
+  Name: Silly Little Jester
   dialogues:
   - question: 
-    dialogueOne: []
+    dialogueOne:
+    - why did the jester bring a ladder to a comedy club?
+    - because he wanted to reach the high notes of laughter!
     dialogueTwo: []
-  - question: 
-    dialogueOne: []
-    dialogueTwo: []
-  - question: 
-    dialogueOne: []
-    dialogueTwo: []
+  - question: thank you! can you tell me a joke?
+    dialogueOne:
+    - why? why? why?
+    - ha ha ha. that was really good. can i use that at my next show?
+    - im a jester. everyone laughs at my jokes.
+    dialogueTwo:
+    - how? how? how?
+    - "i don\u2019t get it. waaaaaahhhhh"
+    - "yea. *sniffs* it was a bad joke. but it\u2019s okay jokes can get better."
+  - question: do you have a favorite kind of food? mine is cookies.
+    dialogueOne:
+    - 'oh my jester they do. '
+    - why why why? he he he.
+    - ha ha ha! that was amazing!
+    - would you like to do a comedy show with me?
+    dialogueTwo:
+    - vegetable stew? There is nothing funny about vegetable stew. the joke would
+      go nowhere.
+    - what? everything isn't meant to be a joke.
+    - why did the tissue go to the doctor?
+    - because it had a case of the blues. *sobs*
   responses:
   - choice1: 
     choice2: 
-    responsesOne: []
+    responsesOne:
+    - Awww, why?
+    - Ha ha ha. That was a really good joke.
     responsesTwo: []
-  - choice1: 
-    choice2: 
-    responsesOne: []
-    responsesTwo: []
-  - choice1: 
-    choice2: 
-    responsesOne: []
-    responsesTwo: []
+  - choice1: How do you embarrass an archaeologist?
+    choice2: Why did the teddy bear say no to dessert?
+    responsesOne:
+    - Why did the teddy bear say no to dessert?
+    - Because he was already stuffed!
+    - "Yes, of course. I don\u2019t mind. I hope you get a lot of laughs."
+    - I bet they do.
+    responsesTwo:
+    - How do you embarrass an archaeologist?
+    - Give him a used tampon and ask him what period it's from. HA.
+    - "I\u2019m sorry don\u2019t cry. I didn\u2019t mean to. It was just a bad joke."
+    - Yes. Yes, they can.
+  - choice1: Really, my favorite food is ice cream.
+    choice2: My favorite food is vegetable stew.
+    responsesOne:
+    - Really, my favorite food is ice cream. It seems our favorites go together.
+    - Because it had too many sundaes.
+    - Thank you!
+    responsesTwo:
+    - "My favorite food is vegetable stew. It\u2019s good for you."
+    - Not everything is a joke. I just like to eat vegetable stew.
+    - "Oh please don\u2019t start crying."
+    - Why? *sighs*
   goodbye:
-    goodEnding: 
-    badEnding: 
-  correctResponse: 0100000001000000
+    goodEnding: Silly Little Jester Clown bounces up and down with joy. He takes
+      out a notepad and starts writing jokes while scurrying away.
+    badEnding: Silly Little Jester Clown takes off sobbing with a trail of tears
+      following behind him.
+  correctResponse: 0200000001000000
   numChoices: 2
   index: 0
   outdex: 0
@@ -126,6 +162,6 @@ MonoBehaviour:
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
   likeablility: 0
   red: 0
-  green: 0
+  green: 3
   onChoice: 0
   whotalked: 0

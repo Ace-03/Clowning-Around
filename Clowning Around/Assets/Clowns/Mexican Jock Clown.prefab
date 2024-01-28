@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5082205642723180744}
   - component: {fileID: 5082205642723180750}
   m_Layer: 5
-  m_Name: PoorlyDrawn Clown
+  m_Name: Mexican Jock Clown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 859, y: 941}
+  m_SizeDelta: {x: 815, y: 999}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3043186698250464521, guid: 5c5c1339099fd55489d9748117fe0b9f, type: 3}
+  m_Sprite: {fileID: -568555181199032562, guid: deb68dd41e1e7eb4c90594b7811e2e41, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88,72 +88,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: PoorlyDrawn
+  Name: Mexican Jock
   dialogues:
   - question: 
-    dialogueOne: []
+    dialogueOne:
+    - Hola, stranger. Why did the wrestler open a bakery?
     dialogueTwo: []
-  - question: "He- Hello, my name is Poorly Drawn Clown\u2026 Nice to meet you!"
+  - question: because he kneaded dough. Ja ja ja.
     dialogueOne:
-    - "That\u2019s kind of a weird name."
-    - "Ha! you\u2019re right. Neither of us are very well defined. I guess we have
-      that in common. So\u2026.. Uh\u2026.."
-    - "Y- Yeah I live about 30 minutes north of here. It\u2019s a really nice area
-      and I just repainted my house too. Here take a look! It\u2019s not great\u2026
-      but I think it looks nice\u2026"
+    - I do both Grisita.
+    - 'What kind of question is that? That is very random, but no I have never tried
+      to do both at the same time. '
+    - "Okay, what\u2019s your favorite food?"
     dialogueTwo:
-    - "Why would you say that!? I\u2019m sorry... I just look like this."
-    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
-  - question: The clown hands you a simplistic crayon drawing of a house*
+    - Well what do you got? Hmm?
+    - "Yea, that\u2019s what I thought. Grisita."
+    - "It\u2019s a term of endearment."
+    - Yes, I just made it up now. I make up nicknames for everyone.
+    - "Okay, what\u2019s your favorite food?"
+  - question: "Really! What\u2019s your favorite part of the pizza-making process
+      Grisita?"
     dialogueOne:
-    - "Thanks I put a lot of time into painting it. Most people get really weird
-      about my house when I show them it. I\u2019m glad you\u2019re different though."
-    - Exactly! I always feel like no one knows what it's like to be poorly drawn.
-    - "One second\u2026 uh\u2026 I\u2019m sorry\u2026 looks like I need to get going.
-      C-Can I get some kind of contact info\u2026 or something."
+    - Yes! I completely agree. But my favorite part is eating it after. Ja ja
+    - We should plan to cook together Grisita. How about it?
     dialogueTwo:
-    - "No\u2026 that's actually a photo."
-    - What?
-    - "It\u2019s a photo of my house."
-    - "C-Can we just move onto something else\u2026"
-    - "Y-You know what, I-I think I should go. This isn\u2019t working out\u2026"
+    - Sticking it in the oven? STICKING IT IN THE OVEN?
+    - Frozen! Why not make it yourself?
+    - "The same. They taste the same. Este peque\xF1o idiota. No han trabajado ni
+      un d\xEDa de su vida. \xBFLa pizza es dif\xEDcil de hacer? Eso es rid\xEDculo.
+      No puedo estar con alguien tan vago. PENDEJO!! "
   responses:
   - choice1: 
     choice2: 
-    responsesOne: []
+    responsesOne:
+    - Yo no se.
     responsesTwo: []
-  - choice1: Nice to meet you
-    choice2: Why do you look like that??
+  - choice1: Does that mean you wrestle?
+    choice2: "I\u2019m sorry that joke was a little boring."
     responsesOne:
-    - Nice to meet you poorly drawn clown. My name is *********.
-    - Well that makes two of us.
-    - "So then, are you from around here? I see lots of strange folks around here
-      but you\u2019re very unique uh\u2026 looking?"
+    - Does that mean you wrestle? Or do you like to bake?
+    - "You do? That\u2019s so cool. Have you ever done both at the same time?"
+    - Oh yeah, I guess that was a bit of a weird question. It probably would be messy.
     responsesTwo:
-    - Why do you look like that??
-    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
-  - choice1: Oh, so this is like a drawing of your house?
-    choice2: Wow!
+    - "I\u2019m sorry that joke was a little boring."
+    - "Well I don\u2019t really have anything. I would have to think about it a bit
+      more."
+    - Did you just call me Baby Gray?
+    - It is?
+    - "Okay, that\u2019s actually very sweet. Then I\u2019ll call you Jock."
+    - "Well, I do love pizza\u2026"
+  - choice1: After kneading the dough, letting it rise and applying sauce.
+    choice2: Sticking it in the oven?
     responsesOne:
-    - Wow! I actually think that looks really nice! Very blue!
-    - Of course! I understand how it feels when people can be overly critical about
-      your work.
-    - "Yeah, it\u2019s definitely a unique situation."
+    - 'After kneading the dough, letting it rise and applying sauce. I love decorating
+      it with toppings.  '
+    - Oh my gosh. I love that part too. Ha ha ha.
     responsesTwo:
-    - Oh, so this is like a drawing of your house? So then I guess you painted it
-      blue?
-    - Huh?
-    - "What do you mean it\u2019s a photo?"
-    - "No, that's clearly a drawing. I can even tell that you used crayon, and look!
-      The house has one window and a door and it\u2019s not even three dimensional."
-    - "\u2026"
+    - "Yeah, I have to since it\u2019s frozen. "
+    - "That\u2019s a lot of effort. Especially when they just taste the same."
   goodbye:
-    goodEnding: The Poorly Drawn Clown nervously runs to the door leaving crayon
-      marks on everything that he touches. In his frantic run he his the door leaving
-      clown makeup on the glass and hurriedly runs through hoping no on would notice.
-    badEnding: ' The Poorly Drawn Clown takes off leaving the drawn photo of his
-      house behind for you to remember him by.'
-  correctResponse: 0100000002000000
+    goodEnding: 'Mexican Jock Clown stands up excited about your future cooking adventures.
+      He gives a thumbs and saunders off laughing. '
+    badEnding: He throws his hat at you and fake spits. He rises up from his seat
+      and refuses to look back.
+  correctResponse: 0100000001000000
   numChoices: 2
   index: 0
   outdex: 0

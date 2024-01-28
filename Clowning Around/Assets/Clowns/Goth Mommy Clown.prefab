@@ -153,8 +153,13 @@ MonoBehaviour:
     - "*\u2026I genuinely do not know what to say\u2026* I\u2019ll be honest, I just
       wanted to go to Clown-Con. MG"
   goodbye:
-    goodEnding: Goth Mommy is Happy
-    badEnding: Goth Mommy is Sad
+    goodEnding: Goth Mommy Clown turns to look back at you before leaving, giving
+      you a wink and a sly look. She turns and smoothly walks away, catching the
+      gaze of the other passengers.
+    badEnding: 'Goth Mommy Clown storms off, and sashays down the train. Everyone
+      seems to watch her leave the train car and go into the next, seeming a tad
+      intimidated. You suddenly notice something on the table, left behind by Goth
+      Mommy Clown: a crystal in the shape of a skull. It feels like an omen.'
   correctResponse: 0200000002000000
   numChoices: 2
   index: 0

@@ -170,8 +170,11 @@ MonoBehaviour:
     - "That\u2019s a little too edgy for me to be honest\u2026 Have you tried taking
       a nature walk? *Or going to therapy?*"
   goodbye:
-    goodEnding: Emo is happy
-    badEnding: Emo is sad
+    goodEnding: "Emo Clown gives you a soft smile, and bids you farewell before leaving.
+      As he\u2019s leaving, he picks up his phone and calls someone, telling them
+      how cool of a person you are and how he can\u2019t wait to go on more dates."
+    badEnding: "Emo Clown stands up and walks away from you without a word, putting
+      his earbuds in and blasting music. He doesn\u2019t even look back."
   correctResponse: 010000000200000002000000
   numChoices: 3
   index: 0
