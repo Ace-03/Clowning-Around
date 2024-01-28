@@ -1,8 +1,10 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.UI;
+[RequireComponent(typeof(Animator))]
 public class ClownScript : MonoBehaviour
 {
     [Header("Dialogue")]
@@ -21,6 +23,10 @@ public class ClownScript : MonoBehaviour
     public Sprite angry;
     public Sprite happy;
     public Sprite neutral;
+    public UnityEngine.UI.Image img;
+
+    [Header("Animator")]
+    public Animator anim;
 
     [Header("Stats")]
     public int likeablility = 0;
@@ -43,6 +49,11 @@ public class ClownScript : MonoBehaviour
         onChoice = false;
         PlayerTalk();
         //Set Sprite to bad
+        img.sprite = angry;
+        if (anim != null)
+        {
+            anim.SetTrigger("Angry");
+        }
     }
     public void OnGoodResponse()
     {
@@ -53,6 +64,11 @@ public class ClownScript : MonoBehaviour
         PlayerTalk();
 
         //set sprite to happy
+        img.sprite = happy;
+        if(anim != null)
+        {
+            anim.SetTrigger("Happy");
+        }
     }
     public void OnExit() { }
     public void Next()
@@ -63,6 +79,12 @@ public class ClownScript : MonoBehaviour
         talked = 0;
         if (outdex <= numChoices)
         {
+            //set sprite neutral
+            img.sprite = neutral;
+            if (anim != null)
+            {
+                anim.SetTrigger("Neutral");
+            }
             GameManager.instance.SetText(Name, dialogues[outdex].question, responses[outdex].choice1, responses[outdex].choice2);
             whotalked = false;
         }

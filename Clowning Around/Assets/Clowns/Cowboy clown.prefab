@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5132894762722206324}
   - component: {fileID: 3897191863280243843}
   - component: {fileID: 7122750758265491646}
+  - component: {fileID: 2168363884381344468}
   m_Layer: 5
   m_Name: Cowboy clown
   m_TagString: Untagged
@@ -169,11 +170,35 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 0}
-  happy: {fileID: 0}
-  neutral: {fileID: 0}
+  angry: {fileID: 2339704184128926929, guid: 77f303294a4072849848c9d327775d30, type: 3}
+  happy: {fileID: 2049641387982473088, guid: a93e571e491f5c7429663312415ecf60, type: 3}
+  neutral: {fileID: -1434218604057751394, guid: 07d9f753526fdb3438e08f6f386d77ba, type: 3}
+  img: {fileID: 3897191863280243843}
+  anim: {fileID: 2168363884381344468}
   likeablility: 0
   red: 0
   green: 0
   onChoice: 0
   whotalked: 0
+--- !u!95 &2168363884381344468
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8536784782089277082}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

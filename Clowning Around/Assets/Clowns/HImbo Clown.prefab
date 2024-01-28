@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5082205642723180745}
   - component: {fileID: 5082205642723180744}
   - component: {fileID: 5082205642723180750}
+  - component: {fileID: 9155397105466101623}
   m_Layer: 5
   m_Name: HImbo Clown
   m_TagString: Untagged
@@ -174,8 +175,32 @@ MonoBehaviour:
   angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
   happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  img: {fileID: 5082205642723180744}
+  anim: {fileID: 9155397105466101623}
   likeablility: 0
   red: 0
   green: 0
   onChoice: 0
   whotalked: 0
+--- !u!95 &9155397105466101623
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

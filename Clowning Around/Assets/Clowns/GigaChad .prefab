@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3179920216973783217}
   - component: {fileID: 5609762169867788449}
   - component: {fileID: 7469208932997601806}
+  - component: {fileID: 8128046746573009755}
   m_Layer: 5
   m_Name: 'GigaChad '
   m_TagString: Untagged
@@ -158,6 +159,9 @@ MonoBehaviour:
       sure how many of those people actually worship yo\u2026 He grabbed my chin
       and pulled it towards him. "
     - "Goodbye. Your \u2026 Chadness. His \u2026. Chadness.  "
+  goodbye:
+    goodEnding: 
+    badEnding: 
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0
@@ -167,7 +171,32 @@ MonoBehaviour:
   angry: {fileID: 0}
   happy: {fileID: 0}
   neutral: {fileID: 0}
+  img: {fileID: 5609762169867788449}
+  anim: {fileID: 8128046746573009755}
   likeablility: 0
   red: 0
   green: 0
+  onChoice: 0
   whotalked: 0
+--- !u!95 &8128046746573009755
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337791769168721135}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

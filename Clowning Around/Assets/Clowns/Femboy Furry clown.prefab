@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2835041724936817636}
   - component: {fileID: 4604411588656572575}
   - component: {fileID: 3645011061183977890}
+  - component: {fileID: 1651534924253306396}
   m_Layer: 5
   m_Name: Femboy Furry clown
   m_TagString: Untagged
@@ -170,8 +171,32 @@ MonoBehaviour:
   angry: {fileID: -8990918535976925985, guid: ddd909b7a839e2f4eaf62ac66ece4a95, type: 3}
   happy: {fileID: -2659892910149050312, guid: a2ed347bff5562144b8d9d44d593c1b8, type: 3}
   neutral: {fileID: -9016447882297609701, guid: fc6e554239d18dd4a9282263277cba90, type: 3}
+  img: {fileID: 4604411588656572575}
+  anim: {fileID: 1651534924253306396}
   likeablility: 0
   red: 0
   green: 0
   onChoice: 0
   whotalked: 0
+--- !u!95 &1651534924253306396
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8671408247101876442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

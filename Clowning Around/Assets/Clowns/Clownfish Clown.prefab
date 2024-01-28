@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2740910888748179033}
   - component: {fileID: 716456511039459731}
   - component: {fileID: 8518645654113579166}
+  - component: {fileID: 5241012939557350456}
   m_Layer: 5
   m_Name: Clownfish Clown
   m_TagString: Untagged
@@ -160,8 +161,32 @@ MonoBehaviour:
   angry: {fileID: 3164049611583023928, guid: c974161ac26778a419a9a901f70f0b56, type: 3}
   happy: {fileID: 2192560173414909339, guid: adb2b42d861013c4bbf6371ca3ec0072, type: 3}
   neutral: {fileID: -1533801096998934899, guid: ef4c1287de68bef47a1eaa3f2816c9db, type: 3}
+  img: {fileID: 716456511039459731}
+  anim: {fileID: 5241012939557350456}
   likeablility: 0
   red: 0
   green: 0
   onChoice: 0
   whotalked: 0
+--- !u!95 &5241012939557350456
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885730762321460993}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
