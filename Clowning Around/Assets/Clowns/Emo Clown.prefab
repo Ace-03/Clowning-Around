@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082205642723180746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082205642723180747}
+  - component: {fileID: 5082205642723180745}
+  - component: {fileID: 5082205642723180744}
+  - component: {fileID: 5082205642723180750}
+  m_Layer: 5
+  m_Name: Emo Clown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5082205642723180747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 445.8203, y: 995.9668}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &5082205642723180745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_CullTransparentMesh: 1
+--- !u!114 &5082205642723180744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5082205642723180750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Emo
+  dialogues:
+  - question: 
+    dialogueOne:
+    - '*Something inaudible*'
+    - '*Just barely loud enough to hear.* Do you listen to music?'
+    dialogueTwo: []
+  - question: "Oh cool\u2026 What do you usually listen to?"
+    dialogueOne:
+    - "I like how you think, little wolf. I am partial to the emo genre myself; it
+      reflects the pain I feel inside\u2026"
+    - "would have to say my favorite artist is\u2026 My Parasocial Romance. Sometimes
+      the music speaks what you feel inside."
+    - With pleasure, little wolf.
+    dialogueTwo:
+    - "My heart is forever broken by your insulting words\u2026"
+    - "I have an emo heart, but a fragile soul. Those who hate our music don\u2019t
+      understand the cruelties of the world. You don\u2019t understand our pain."
+    - "Little wolf, you can\u2019t mend my broken heart."
+  - question: "I chose a career that reflected my inner-turmoil, so that I can show
+      my pain to the world. Whether they laugh at my idiocy or cry in sympathy, I
+      know I\u2019ve made an impact. In a world where everyone wears black, it\u2019s
+      a privilege to see a soul that attempts to see others. I wish to mourn the
+      imminent death of our morality with my people, and I believe this is the best
+      way to reach them all."
+    dialogueOne:
+    - "Thank you, little wolf. I\u2019m feeling the weight of the world, but still
+      standing tall."
+    dialogueTwo:
+    - Be careful how far you push me away, I may end up liking it there.
+  - question: "When I was a young boy\u2026 My father introduced me to the emo culture.
+      He said \u201Cson, when you grow up, will you continue my legacy and live an
+      emo lifestyle?\u201D How could I refuse? The emo life was the savior of my
+      broken, beaten soul. He told me to be the one to defeat my demons, and the
+      demons of the world. One day, he left me, and walks a dark march as a phantom
+      in the summer\u2026"
+    dialogueOne:
+    - "Thank you for your kind words, little wolf\u2026 I hope life treats you better
+      than it treats me\u2026I really enjoyed talking to you\u2026 Are you free tomorrow
+      night?"
+    dialogueTwo:
+    - "No one understands my pain\u2026I hope you suffer for your crimes against
+      the soul\u2026"
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - "\u2026Uhhhhh\u2026 what?"
+    - Occasionally. *Why is he so quiet?*
+    responsesTwo: []
+  - choice1: I like a bit of everything
+    choice2: Anything but emo music
+    responsesOne:
+    - I like a bit of everything, actually! There are so many genres to choose from,
+      and all of them have some great artists.
+    - Do you have a favorite song? Or an artist?
+    - "I have not heard of them, you\u2019ll have to show me some of their music
+      sometime."
+    - "Ok\u2026 how about a different conversation topic? Why did you become a clown?"
+    responsesTwo:
+    - "Anything but emo music\u2026 It's too depressing for me."
+    - What now-
+    - "I\u2019m\u2026 sorry? *What is this guy yapping about??*"
+    - "Ok\u2026 how about a different conversation topic? Why did you become a clown?"
+  - choice1: Clowning is kind of lame
+    choice2: "I think that\u2019s a\u2026 noble cause."
+    responsesOne:
+    - "I think that\u2019s a\u2026 noble cause."
+    - "I wish you luck in your\u2026 endeavors. What drew you to emo culture?"
+    responsesTwo:
+    - "I think clowning is a bit of a lame way to make an impact\u2026"
+    - "*\u2026That was the most emo thing I have ever heard\u2026* Ok then\u2026What
+      drew you to emo culture?"
+  - choice1: "That\u2019s a little too edgy"
+    choice2: "That\u2019s beautiful, man."
+    responsesOne:
+    - "That\u2019s beautiful, man. *That sounds so familiar\u2026 Where have I heard
+      this before??*"
+    responsesTwo:
+    - "That\u2019s a little too edgy for me to be honest\u2026 Have you tried taking
+      a nature walk? *Or going to therapy?*"
+  goodbye:
+    goodEnding: Emo is happy
+    badEnding: Emo is sad
+  correctResponse: 010000000200000002000000
+  numChoices: 3
+  index: 0
+  outdex: 0
+  good: 1
+  CurChoice: 0
+  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
+  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
+  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  likeablility: 0
+  red: 0
+  green: 0
+  onChoice: 0
+  whotalked: 0

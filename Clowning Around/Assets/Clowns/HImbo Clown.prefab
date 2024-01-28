@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082205642723180746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082205642723180747}
+  - component: {fileID: 5082205642723180745}
+  - component: {fileID: 5082205642723180744}
+  - component: {fileID: 5082205642723180750}
+  m_Layer: 5
+  m_Name: HImbo Clown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5082205642723180747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &5082205642723180745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_CullTransparentMesh: 1
+--- !u!114 &5082205642723180744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2194492300934527279, guid: 3df8668cb60736a44ba1f528fe266131, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5082205642723180750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 'Himbo '
+  dialogues:
+  - question: 
+    dialogueOne:
+    - Hello, beautiful individual!!! Nice to meet you!!! *Finger guns*
+    - Well the world is beautiful isn't it. Yes. At least I find it beautiful. And
+      you happen to live in it. So uhh that directly means you are beautiful!!!!!
+    - "Yes, it is!! You gotta talk the walk to \u2026 Yea! You Go!!!!!!!"
+    dialogueTwo: []
+  - question: So what do you like to do outside of your job?!!! No, wait!! What is
+      your job? Yes, answer that one first!!!!!
+    dialogueOne:
+    - Wow!! What are you talking about that is so cool!!!! I. AM. TOTALLY. IMPRESSED!
+    - "I am so glad you asked!!! I\u2019m a pilates instructor during the week. \u201CYOUR
+      GOAL BODY IS WHATEVER YOU DREAM IT IS!!!!\u201D"
+    - "I go to feminist marches! Gotta support my book club ladies!!! Can\u2019t
+      let them march by themselves!!!!"
+    - AWKWARD!!!! So why are you going to clown-con!!!!
+    - "THAT IS SO COOL OF YOU!!! Most people don\u2019t appreciate the happiness
+      that clowns bring!!!!"
+    dialogueTwo:
+    - "Was that sarcasm! Don\u2019t put yourself down like that!! You gotta love
+      yourself to be yourself!!!!!!!!"
+    - Ah, I see! A joke! HA, A JOKE. I KNEW THAT!!!!
+    - AWKWARD!!!! So why are you going to clown-con!!!!
+    - "THAT IS SO COOL OF YOU!!! Most people don\u2019t appreciate the happiness
+      that clowns bring!!!!"
+  - question: YOU LOVE ALL CLOWNS!!! Then does that mean you love me? *He smiles
+      widely*
+    dialogueOne:
+    - HA, THANK YOU! BUT THAT WAS A JOKE! *Slaps his knee*
+    - Thank you!!! So in between your circus visits and your amazing job; you should
+      bring your love for me and join me in a feminist march sometime!!!!
+    dialogueTwo:
+    - Oh, yea! That was a joke!! HA HA HA.
+    - Ha Ha HA! I guess not.. AWKWARD!!!!!
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - "Hi, nice to meet you. *Giggles* I don\u2019t know if I would describe myself
+      as beautiful but thank you."
+    - I guess if you think of it that way then I guess it's true.
+    - "Oh, umm so what do you like to\u2026"
+    responsesTwo: []
+  - choice1: Oh, hehe. I just work a normal office job.
+    choice2: The moooost amazing job in the world.
+    responsesOne:
+    - Oh, hehe. I just work a normal office job. Nothing too interesting.
+    - "Ha, thank you. I also go to circuses on the weekend. What\u2019s your job?"
+    - "Wow that\u2019s amazing! I would definitely take your classes. What do you
+      do on the weekends?"
+    - "Oh my gosh that sounds so fun\u2026."
+    - "Oh. *Smiles sheepishly* I\u2019ve just always loved clowns. So I decided this
+      weekend I would go to the con and explore."
+    - Yes, I love all clowns. They always make me smile.
+    responsesTwo:
+    - The moooost amazing job in the world. I sit at a desk all day and stare at
+      a computer. Very exciting.
+    - "Oh, I was joking it wasn\u2019t that serious. *Waves hands frequently*"
+    - "Ha Ha. Yea\u2026."
+    - "Oh. *Smiles sheepishly* I\u2019ve just always loved clowns. So I decided this
+      weekend I would go to the con and explore."
+    - Yes, I love all clowns. They always make me smile.
+  - choice1: Oh, umm, wow.
+    choice2: Uhhhh yea.
+    responsesOne:
+    - "Uhhhh yea. I mean YEA! You are\u2026 SUPER COOl! So yes I do\u2026 love you."
+    - Oh, a joke I see. *Laughs along.* That was really funny.
+    responsesTwo:
+    - "Oh, umm, wow. That came completely out of nowhere. I don\u2019t love you.
+      I barely even know you."
+    - "Well, it wasn\u2019t very funny, but I get it. Maybe that wasn\u2019t the
+      best joke to tell when you first meet someone."
+  goodbye:
+    goodEnding: Himbo is happy
+    badEnding: Himbo is sad
+  correctResponse: 0100000002000000
+  numChoices: 2
+  index: 0
+  outdex: 0
+  good: 1
+  CurChoice: 0
+  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
+  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
+  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  likeablility: 0
+  red: 0
+  green: 0
+  onChoice: 0
+  whotalked: 0

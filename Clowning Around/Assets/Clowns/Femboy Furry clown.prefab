@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Femboy Furry Clown
+  Name: 'Femboy Furry '
   dialogues:
   - question: 
     dialogueOne:
@@ -158,6 +158,9 @@ MonoBehaviour:
       a neat one."
     responsesTwo:
     - "Oh, I thought yours would have been something like\u2026 OwO"
+  goodbye:
+    goodEnding: To b
+    badEnding: 
   correctResponse: 010000000200000001000000
   numChoices: 3
   index: 0
@@ -170,4 +173,5 @@ MonoBehaviour:
   likeablility: 0
   red: 0
   green: 0
+  onChoice: 0
   whotalked: 0

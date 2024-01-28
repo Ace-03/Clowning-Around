@@ -9,6 +9,7 @@ public class ClownScript : MonoBehaviour
     public string Name;
     public DialogueStruct[] dialogues;
     public ResponseStruct[] responses;
+    public FinalSayings goodbye;
     public int[] correctResponse;
     public int numChoices;
     public int index = 0;
@@ -218,4 +219,10 @@ public struct ResponseStruct
     public string[] responsesOne;
     public string[] responsesTwo;
 
+}
+[System.Serializable]
+public struct FinalSayings
+{
+    public string goodEnding;
+    public string badEnding;
 }

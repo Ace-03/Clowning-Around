@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082205642723180746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082205642723180747}
+  - component: {fileID: 5082205642723180745}
+  - component: {fileID: 5082205642723180744}
+  - component: {fileID: 5082205642723180750}
+  m_Layer: 5
+  m_Name: Sugar Daddy Clown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5082205642723180747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &5082205642723180745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_CullTransparentMesh: 1
+--- !u!114 &5082205642723180744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6186185599152085954, guid: 4fe9f46a1a9a9664bb0fc069d19784c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5082205642723180750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Suagr Daddy
+  dialogues:
+  - question: 
+    dialogueOne:
+    - "*Slides in* Guess what\u2019s on the menu tonight?"
+    - "Me-n-u. Ha\u2026 Ha\u2026 Ha\u2026"
+    dialogueTwo: []
+  - question: So what does your financial situation look like?
+    dialogueOne:
+    - I see. That is very ambitious for someone your age. That ambition is very admirable.
+    - So ambitious one do you happen to know how money smells?
+    - "Well, actually money usually has a lot of scents. Ha\u2026 Ha\u2026 Ha\u2026"
+    dialogueTwo:
+    - "I see\u2026 so you're not in need of any money."
+    - Do you want any more money?
+    - "I see. Why don\u2019t money jokes ever work?"
+    - "Because they're usually too centsless! Ha\u2026 Ha\u2026 Ha\u2026"
+  - question: So how do you feel about someone financially supporting you?
+    dialogueOne:
+    - "I knew I liked you. From here on out you don\u2019t have to worry about money."
+    - "What\u2019s a coin's favorite game?"
+    - "Change\u2026 Ha\u2026 Ha\u2026 Ha\u2026 See you around."
+    dialogueTwo:
+    - Huh, uncomfortable you say.
+    - "I see\u2026. Why did both you and the dollar go to therapy?"
+    - "Because you both have too many issues Ha\u2026 Ha\u2026 Ha\u2026"
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - What?
+    - Ha. I get it.
+    responsesTwo: []
+  - choice1: "Oh well it\u2019s not a six-figure job"
+    choice2: I work your average 9-5 job.
+    responsesOne:
+    - I work your average 9-5 job.
+    - Why thank you!
+    - Okay, that was a little out of nowhere. But money usually smells a lot like
+      metal.
+    - "Scents\u2026 Cents\u2026 Oh, I get it. Ha."
+    responsesTwo:
+    - "Oh well it\u2019s not a six-figure job but I have enough to support myself.
+      It\u2019s honestly more than I know what to do with."
+    - Nope.
+    - "I mean who wouldn\u2019t want more money?"
+    - Why?
+    - Ha. Cents. Sense. You really like these jokes huh?
+  - choice1: "I don\u2019t think I would mind."
+    choice2: "I\u2019m more of the independent type."
+    responsesOne:
+    - "I don\u2019t think I would mind. I don\u2019t really need to be the breadwinner
+      to be happy."
+    - "Uhhhhhh\u2026 wait. I don't think\u2026."
+    - Wait. I'm sorry, what does this have to do with you financially supporting
+      me?
+    responsesTwo:
+    - "I\u2019m more of the independent type. Someone giving me money without me
+      earning it makes me uncomfortable"
+    - Yes, uncomfortable.
+    - '*sighs* Why?'
+  goodbye:
+    goodEnding: Suagr Daddy is happy
+    badEnding: Suagr Daddy is sad
+  correctResponse: 0200000001000000
+  numChoices: 2
+  index: 0
+  outdex: 0
+  good: 1
+  CurChoice: 0
+  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
+  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
+  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  likeablility: 0
+  red: 0
+  green: 0
+  onChoice: 0
+  whotalked: 0

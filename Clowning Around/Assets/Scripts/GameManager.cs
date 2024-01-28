@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI DialogueBox;
     public TextMeshProUGUI response1;
     public TextMeshProUGUI response2;
+    public TextMeshProUGUI leavingText;
     public TextMeshProUGUI Name;
     public Button responseOne;
     public Button responseTwo;
@@ -112,6 +113,10 @@ public class GameManager : MonoBehaviour
         responseTwo.interactable = true;
 
     }
+    public void SetText(string s)
+    {
+        leavingText.text = s;
+    }
     private void EndGame() 
     {
         _Menu.instance.OnButtonClick(2);
@@ -138,12 +143,14 @@ public class GameManager : MonoBehaviour
     {
         redFlags += clown.red;
         greenFlags += clown.green;
+        SetText(clown.goodbye.goodEnding);
         Swipe();
         Transition();
     }
 
     public void Reject()
     {
+        SetText(clown.goodbye.badEnding);
         Swipe();
         Transition();
     }

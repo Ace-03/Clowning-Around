@@ -88,11 +88,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Clownfish Clown
+  Name: Clownfish
   dialogues:
   - question: 
     dialogueOne:
-    - Blub
+    - 
     dialogueTwo: []
   - question: Bubble bubble blub?
     dialogueOne:
@@ -114,7 +114,7 @@ MonoBehaviour:
   - choice1: 
     choice2: 
     responsesOne:
-    - '*is that a fish?*'
+    - 
     responsesTwo: []
   - choice1: "Well aren\u2019t you kinda cute"
     choice2: Oh nice to meet you too?
@@ -146,6 +146,11 @@ MonoBehaviour:
     - "Telling me the same thing again doesn\u2019t change anything. I apologized!
       You\u2019re really letting all this bubble up to the surface. I guess we\u2019re
       done here."
+  goodbye:
+    goodEnding: The fish goes "blub blub" and vanishes from the table.  Is he a clown
+      or a magician?
+    badEnding: The fish tells youi to die and then vanishes from the table.  Are
+      you okay girl?
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0
@@ -158,4 +163,5 @@ MonoBehaviour:
   likeablility: 0
   red: 0
   green: 0
+  onChoice: 0
   whotalked: 0

@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5082205642723180746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5082205642723180747}
+  - component: {fileID: 5082205642723180745}
+  - component: {fileID: 5082205642723180744}
+  - component: {fileID: 5082205642723180750}
+  m_Layer: 5
+  m_Name: Spider clown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5082205642723180747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -220.5}
+  m_SizeDelta: {x: 842, y: 441}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &5082205642723180745
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_CullTransparentMesh: 1
+--- !u!114 &5082205642723180744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5978077973728925264, guid: 8af6321c7da167d4f880a608a77c5496, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5082205642723180750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082205642723180746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Spider
+  dialogues:
+  - question: 
+    dialogueOne: []
+    dialogueTwo: []
+  - question: Why did the man go on a date with a spider? His wife told him to take
+      it out instead of killing it!
+    dialogueOne:
+    - "I think you\u2019re even cuter!! I love your outfit! *He does a little spider
+      dance.*"
+    - "Isn\u2019t it fun?? I did it myself! :D"
+    dialogueTwo:
+    - "I just wanted to go to Clown Con\u2026 :("
+    - "\u2026 I don\u2019t want to think you meant anything harmful, so I guess I\u2019ll
+      let it slide\u2026"
+  - question: "Oh that\u2019s easy: mind reading! With that kind of power, I would
+      be able to instantly know what to say to make someone feel better, or what
+      to do to make them laugh!"
+    dialogueOne:
+    - "I certainly do my best to be!! I want to make everyone smile - that\u2019s
+      why I became a clown in the first place! ^-^"
+    - What superpower would you want?
+    - "Aww don\u2019t be silly; you are doing great! I\u2019m really enjoying our
+      time together! Let\u2019s exchange numbers!"
+    dialogueTwo:
+    - "Oh\u2026"
+    - "This has been\u2026 an experience\u2026 I think we should go our separate
+      ways\u2026"
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne: []
+    responsesTwo: []
+  - choice1: EEK A SPIDER!!
+    choice2: "Aww you\u2019re so cute!!"
+    responsesOne:
+    - "Aww you\u2019re so cute!!"
+    - "Oh wow thank you! *I can\u2019t believe a spider of all things is making me
+      blush\u2026* I like your\u2026 makeup?"
+    - "That\u2019s awesome! If you could have one superpower, what would it be?"
+    responsesTwo:
+    - EEK A SPIDER!! GET THIS THING OFF THE TRAIN!!
+    - "*Oh no\u2026 I think I hurt its feelings\u2026 I probably shouldn\u2019t have
+      said that\u2026* H-hey now\u2026 I\u2019m sorry I got a little scared\u2026
+      You must understand, you are a spider. Spiders\u2026 generally aren\u2019t\u2026
+      cute\u2026"
+    - "*Better change the subject\u2026* If you could have one superpower, what would
+      it be?"
+  - choice1: I feel like that power could get out of hand
+    choice2: "That\u2019s so sweet!"
+    responsesOne:
+    - "That\u2019s so sweet! You really are a kind little guy, aren\u2019t you?"
+    - "You have a heart of gold\u2026 *I think I\u2019m falling for this spider\u2026*"
+    - "Maybe the power to be less socially awkward\u2026"
+    responsesTwo:
+    - "I feel like that power could get out of hand really fast\u2026 I think it
+      would make your life a living nightmare."
+    - "But if that\u2019s what you want I suppose it\u2019s fine!! *Shoot, I think
+      that comment was a little insensitive\u2026*"
+  goodbye:
+    goodEnding: Spider is happy
+    badEnding: Spider is sad
+  correctResponse: 0200000002000000
+  numChoices: 2
+  index: 0
+  outdex: 0
+  good: 1
+  CurChoice: 0
+  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
+  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
+  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  likeablility: 0
+  red: 0
+  green: 0
+  onChoice: 0
+  whotalked: 0
