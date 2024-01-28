@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SugarDaddyClown_Happy_0: -3406459494373960134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

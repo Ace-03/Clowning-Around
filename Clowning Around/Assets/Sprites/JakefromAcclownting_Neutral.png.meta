@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JakefromAcclownting_Neutral_0: 6663752066968097959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Resized_Himbo_Sad_0: -4259349892840761699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
