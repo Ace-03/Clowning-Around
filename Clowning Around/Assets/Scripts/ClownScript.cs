@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ClownScript : MonoBehaviour
@@ -13,6 +14,7 @@ public class ClownScript : MonoBehaviour
     public int index = 0;
     public int outdex = 0;
     public bool good = true;
+    public int CurChoice = 0;
 
     [Header("Sprites")]
     public Sprite angry;
@@ -24,19 +26,25 @@ public class ClownScript : MonoBehaviour
     public int red;
     public int green;
 
+    private int talked = 0;
+    public bool whotalked = false;
+
     public void OnEnter() 
     {
-        GameManager.instance.SetText(Name, dialogues[outdex].dialogueOne[index]);
-        Invoke("PlayerTalk", 2f);
+        //GameManager.instance.SetText(Name, dialogues[outdex].dialogueOne[index]);
+        Invoke("ClownTalk", 2f);
     }
     public void OnBadResponse()
     {
+        CurChoice++;
         good = false;
         PlayerTalk();
         //Set Sprite to bad
     }
     public void OnGoodResponse()
     {
+        CurChoice++;
+        likeablility++;
         good = true;
         PlayerTalk();
 
@@ -48,19 +56,58 @@ public class ClownScript : MonoBehaviour
         Debug.Log("Hi");
         outdex++;
         index = 0;
+        talked = 0;
         if (outdex <= numChoices)
         {
             GameManager.instance.SetText(Name, dialogues[outdex].question, responses[outdex].choice1, responses[outdex].choice2);
+            whotalked = false;
         }
         else
+        {
             GameManager.instance.Swipe();
+            if (likeablility <= 0)
+            {
+                GameManager.instance.Reject();
+            }
+
+        }
+
+    }
+    void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            if (whotalked)
+            {
+                ClownTalk();
+            }
+            else
+            {
+                PlayerTalk(); 
+            }
+        }
     }
 
     public void ClownTalk()
     {
+
+               Debug.Log(talked);
         if (good)
         {
-            if (index >= dialogues[outdex].dialogueOne.Length || index >= responses[outdex].responsesOne.Length)
+            if (index < dialogues[outdex].dialogueOne.Length)
+            {
+                GameManager.instance.SetText(Name, dialogues[outdex].dialogueOne[index]);
+                talked++;
+                if (talked == 2)
+                {
+                    index++;
+                    talked = 0;
+                }
+
+                whotalked = false;
+
+            }
+            else
             {
                 Debug.Log("ClownTalk good");
                 Debug.Log(index);
@@ -68,27 +115,30 @@ public class ClownScript : MonoBehaviour
                 Debug.Log(responses[outdex].responsesOne.Length);
                 Next();
             }
-            else
-            {
-                GameManager.instance.SetText(Name, dialogues[outdex].dialogueOne[index]);
-                Invoke("PlayerTalk", 2f);
-            }
 
         }
         else
         {
-            if (index >= dialogues[outdex].dialogueTwo.Length || index >= responses[outdex].responsesTwo.Length)
+            if (index < dialogues[outdex].dialogueTwo.Length)
             {
+                GameManager.instance.SetText(Name, dialogues[outdex].dialogueTwo[index]);
+                talked++;
+                if (talked == 2)
+                {
+                    index++;
+                    talked = 0;
+                }
+
+                whotalked = false;
+            }
+            else
+            {
+
                 Debug.Log("ClownTalk bad");
                 Debug.Log(index);
                 Debug.Log(dialogues[outdex].dialogueTwo.Length);
                 Debug.Log(responses[outdex].responsesTwo.Length);
                 Next();
-            }
-            else
-            {
-                GameManager.instance.SetText(Name, dialogues[outdex].dialogueTwo[index]);
-                Invoke("PlayerTalk", 2f);
             }
 
         }
@@ -97,39 +147,53 @@ public class ClownScript : MonoBehaviour
 
     public void PlayerTalk()
     {
+        Debug.Log(talked);
         if(good)
         {
-            if (index >= dialogues[outdex].dialogueOne.Length || index >= responses[outdex].responsesOne.Length)
+            if (index < responses[outdex].responsesOne.Length)
             {
+                GameManager.instance.SetText("Player", responses[outdex].responsesOne[index]);
+                talked++;
+                if (talked == 2)
+                {
+                    index++;
+                    talked = 0;
+                }
+
+                whotalked = true;
+            }
+            else
+            {
+
                 Debug.Log("PlayerTalk good");
                 Debug.Log(index);
                 Debug.Log(dialogues[outdex].dialogueOne.Length);
                 Debug.Log(responses[outdex].responsesOne.Length);
                 Next();
             }
-            else
-            {
-                GameManager.instance.SetText("Player", responses[outdex].responsesOne[index]);
-                index++;
-                Invoke("ClownTalk", 2f);
-            }
         }
         else
         {
 
-            if (index >= dialogues[outdex].dialogueTwo.Length || index >= responses[outdex].responsesTwo.Length)
+            if (index < responses[outdex].responsesTwo.Length)
+            {
+                GameManager.instance.SetText("Player", responses[outdex].responsesTwo[index]);
+                talked++;
+                if (talked == 2)
+                {
+                    index++;
+                    talked = 0;
+                }
+
+                whotalked = true;
+            }
+            else
             {
                 Debug.Log("PlayerTalk bad");
                 Debug.Log(index);
                 Debug.Log(dialogues[outdex].dialogueTwo.Length);
                 Debug.Log(responses[outdex].responsesTwo.Length);
                 Next();
-            }
-            else
-            {
-                GameManager.instance.SetText("Player", responses[outdex].responsesTwo[index]);
-                index++;
-                Invoke("ClownTalk", 2f);
             }
         }
 

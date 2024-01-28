@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour
 
     public void Response(int id)
     {
-        if (clown.correctResponse[clown.index] == id)
+        if (clown.correctResponse[clown.CurChoice] == id)
         {
             clown.OnGoodResponse();
         }

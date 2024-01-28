@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3337791769168721135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5881653716560640074}
+  - component: {fileID: 3179920216973783217}
+  - component: {fileID: 5609762169867788449}
+  - component: {fileID: 7469208932997601806}
+  m_Layer: 5
+  m_Name: 'GigaChad '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5881653716560640074
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337791769168721135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &3179920216973783217
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337791769168721135}
+  m_CullTransparentMesh: 1
+--- !u!114 &5609762169867788449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337791769168721135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4764151, g: 1, b: 0.4783324, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7469208932997601806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337791769168721135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: GigaChad
+  dialogues:
+  - question: 
+    dialogueOne:
+    - "\u2026\u2026\u2026\u2026\u2026\u2026.."
+    - "\u2026\u2026\u2026\u2026\u2026\u2026.."
+    - "Shhhhhhhhhhhh, don\u2019t interrupt my mewing my little protein shake. I know
+      you're stunned by the work of art displayed in front of you. But don\u2019t
+      worry I\u2019ll take goooood care of you. *Boop.*"
+    dialogueTwo: []
+  - question: Ah I see, your little obsession with me is cute little P.S. As for
+      what I do in my free time, I do a little something on Tik Tok here and there.
+      Let me show you.* A growling sound begins to erupt from the phone speaker.*
+    dialogueOne:
+    - "Grrrrrrrrr\u2026 Did you like that my little P.S."
+    - "mmmmm. I\u2019m glad you could tell. This is just a side gig for His Chadness
+      since protein powder doesn\u2019t buy itself."
+    - 'Shhhhhhhhh, he is right in front of you baby girl. Worship me in all my glory. '
+    dialogueTwo:
+    - Do you now understand the talent that is His Chadness? *Mews*
+    - Shhhhhhhhh, he is right in front of you baby girl. Worship me in all my glory.
+  - question: "Don\u2019t worry, my little protein shake. You wouldn\u2019t be alone
+      in your new religion. You would be joining 39 others."
+    dialogueOne:
+    - 'Aren''t you a smart little thing, my little protein shake. I could just gulp
+      you down. Wink.  '
+    - You. Me. Gym. I workout and guzzle down protein shakes and you cheer me on.
+      Are you down my little protein shake? Grrrrrrrrrrr
+    dialogueTwo:
+    - "That\u2019s where you\u2019re wrong lil P.S. All religions have to start somewhere
+      and it begins with a god.  "
+    - "A good little protein shake doesn\u2019t go against its lord! When you're
+      ready to be blessed by His Chadness you\u2019ll know where to find me. He releases
+      your chin stomps off."
+  responses:
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - Uhh, Hi nice to meet you.
+    - "That\u2019s a really sharp jawline you got there. Were you uh, born with it
+      or did you work for it?"
+    - Did he just boop my nose? My nose has been booped. So what are your hobbies?
+    responsesTwo: []
+  - choice1: Hell no
+    choice2: Sure
+    responsesOne:
+    - "Oh, yea sure. Doesn\u2019t seem like I have much of a choice. Ha. *You watch
+      all three of his thirst traps he has posted on tik tok. They are artistic to
+      say the least.*"
+    - Oh, yeaaa. I could really feel your talent through the screen. *Smiles awkwardly.*
+    - "His Chadness, who is His Chadnes\u2026"
+    responsesTwo:
+    - Oh, no thank you I think I understand the idea. No need to show me. *He showed
+      me anyway. All three of his thirst traps tik toks. All shirtless. All over
+      a minute.*
+    - "Okay. Umm. I\u2019m sorry. Who is His Chadnes\u2026"
+    - "Worship? Like a God. Umm that seems a little\u2026"
+  - choice1: Wow 39!
+    choice2: "39 isn\u2019t a lot."
+    responsesOne:
+    - 'Wow 39! That''s definitely a large number. Ha ha. He slides a finger down
+      your face from your nose to your chin. '
+    - Uh, Um, Uh. Thank you!
+    responsesTwo:
+    - "39 isn\u2019t a lot. I think I have more followers than you actually. I don't
+      think that's enough to start a religion. "
+    - " That\u2019s not much of religion that's more of a cult. Plus I\u2019m not
+      sure how many of those people actually worship yo\u2026 He grabbed my chin
+      and pulled it towards him. "
+    - "Goodbye. Your \u2026 Chadness. His \u2026. Chadness.  "
+  correctResponse: 0200000001000000
+  numChoices: 2
+  index: 0
+  outdex: 0
+  good: 1
+  angry: {fileID: 0}
+  happy: {fileID: 0}
+  neutral: {fileID: 0}
+  likeablility: 0
+  red: 0
+  green: 0
+  whotalked: 0
