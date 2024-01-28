@@ -176,6 +176,6 @@ MonoBehaviour:
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
   likeablility: 0
   red: 0
-  green: 0
+  green: 3
   onChoice: 0
   whotalked: 0

@@ -166,7 +166,7 @@ MonoBehaviour:
   happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
   likeablility: 0
-  red: 0
-  green: 0
+  red: 2
+  green: 1
   onChoice: 0
   whotalked: 0

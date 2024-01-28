@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 445.8203, y: 995.9668}
+  m_SizeDelta: {x: 833, y: 947}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1478446446738343854, guid: 5256e75bd74d6864b9ab236f6d98e87b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -182,7 +182,7 @@ MonoBehaviour:
   happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
   likeablility: 0
-  red: 0
-  green: 0
+  red: 1
+  green: 3
   onChoice: 0
   whotalked: 0

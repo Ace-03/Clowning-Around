@@ -158,6 +158,9 @@ MonoBehaviour:
       sure how many of those people actually worship yo\u2026 He grabbed my chin
       and pulled it towards him. "
     - "Goodbye. Your \u2026 Chadness. His \u2026. Chadness.  "
+  goodbye:
+    goodEnding: 
+    badEnding: 
   correctResponse: 0200000001000000
   numChoices: 2
   index: 0
@@ -168,6 +171,7 @@ MonoBehaviour:
   happy: {fileID: 0}
   neutral: {fileID: 0}
   likeablility: 0
-  red: 0
+  red: 3
   green: 0
+  onChoice: 0
   whotalked: 0

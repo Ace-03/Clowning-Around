@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5082205642723180744}
   - component: {fileID: 5082205642723180750}
   m_Layer: 5
-  m_Name: Sugar Daddy Clown
+  m_Name: PoorlyDrawn Clown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_SizeDelta: {x: 859, y: 941}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6186185599152085954, guid: 4fe9f46a1a9a9664bb0fc069d19784c9, type: 3}
+  m_Sprite: {fileID: -3043186698250464521, guid: 5c5c1339099fd55489d9748117fe0b9f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88,71 +88,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75563f2ff4d29bf4d979f7081056a052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Suagr Daddy
+  Name: PoorlyDrawn
   dialogues:
   - question: 
-    dialogueOne:
-    - "*Slides in* Guess what\u2019s on the menu tonight?"
-    - "Me-n-u. Ha\u2026 Ha\u2026 Ha\u2026"
+    dialogueOne: []
     dialogueTwo: []
-  - question: So what does your financial situation look like?
+  - question: "He- Hello, my name is Poorly Drawn Clown\u2026 Nice to meet you!"
     dialogueOne:
-    - I see. That is very ambitious for someone your age. That ambition is very admirable.
-    - So ambitious one do you happen to know how money smells?
-    - "Well, actually money usually has a lot of scents. Ha\u2026 Ha\u2026 Ha\u2026"
+    - "That\u2019s kind of a weird name."
+    - "Ha! you\u2019re right. Neither of us are very well defined. I guess we have
+      that in common. So\u2026.. Uh\u2026.."
+    - "Y- Yeah I live about 30 minutes north of here. It\u2019s a really nice area
+      and I just repainted my house too. Here take a look! It\u2019s not great\u2026
+      but I think it looks nice\u2026"
     dialogueTwo:
-    - "I see\u2026 so you're not in need of any money."
-    - Do you want any more money?
-    - "I see. Why don\u2019t money jokes ever work?"
-    - "Because they're usually too centsless! Ha\u2026 Ha\u2026 Ha\u2026"
-  - question: So how do you feel about someone financially supporting you?
+    - "Why would you say that!? I\u2019m sorry... I just look like this."
+    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
+  - question: The clown hands you a simplistic crayon drawing of a house*
     dialogueOne:
-    - "I knew I liked you. From here on out you don\u2019t have to worry about money."
-    - "What\u2019s a coin's favorite game?"
-    - "Change\u2026 Ha\u2026 Ha\u2026 Ha\u2026 See you around."
+    - "Thanks I put a lot of time into painting it. Most people get really weird
+      about my house when I show them it. I\u2019m glad you\u2019re different though."
+    - Exactly! I always feel like no one knows what it's like to be poorly drawn.
+    - "One second\u2026 uh\u2026 I\u2019m sorry\u2026 looks like I need to get going.
+      C-Can I get some kind of contact info\u2026 or something."
     dialogueTwo:
-    - Huh, uncomfortable you say.
-    - "I see\u2026. Why did both you and the dollar go to therapy?"
-    - "Because you both have too many issues Ha\u2026 Ha\u2026 Ha\u2026"
+    - "No\u2026 that's actually a photo."
+    - What?
+    - "It\u2019s a photo of my house."
+    - "C-Can we just move onto something else\u2026"
+    - "Y-You know what, I-I think I should go. This isn\u2019t working out\u2026"
   responses:
   - choice1: 
     choice2: 
-    responsesOne:
-    - What?
-    - Ha. I get it.
+    responsesOne: []
     responsesTwo: []
-  - choice1: "Oh well it\u2019s not a six-figure job"
-    choice2: I work your average 9-5 job.
+  - choice1: Nice to meet you
+    choice2: Why do you look like that??
     responsesOne:
-    - I work your average 9-5 job.
-    - Why thank you!
-    - Okay, that was a little out of nowhere. But money usually smells a lot like
-      metal.
-    - "Scents\u2026 Cents\u2026 Oh, I get it. Ha."
+    - Nice to meet you poorly drawn clown. My name is *********.
+    - Well that makes two of us.
+    - "So then, are you from around here? I see lots of strange folks around here
+      but you\u2019re very unique uh\u2026 looking?"
     responsesTwo:
-    - "Oh well it\u2019s not a six-figure job but I have enough to support myself.
-      It\u2019s honestly more than I know what to do with."
-    - Nope.
-    - "I mean who wouldn\u2019t want more money?"
-    - Why?
-    - Ha. Cents. Sense. You really like these jokes huh?
-  - choice1: "I don\u2019t think I would mind."
-    choice2: "I\u2019m more of the independent type."
+    - Why do you look like that??
+    - "Oh\u2026\u2026 Sorry\u2026\u2026. A-Anyway, So then, are you from around here?"
+  - choice1: Oh, so this is like a drawing of your house?
+    choice2: Wow!
     responsesOne:
-    - "I don\u2019t think I would mind. I don\u2019t really need to be the breadwinner
-      to be happy."
-    - "Uhhhhhh\u2026 wait. I don't think\u2026."
-    - Wait. I'm sorry, what does this have to do with you financially supporting
-      me?
+    - Wow! I actually think that looks really nice! Very blue!
+    - Of course! I understand how it feels when people can be overly critical about
+      your work.
+    - "Yeah, it\u2019s definitely a unique situation."
     responsesTwo:
-    - "I\u2019m more of the independent type. Someone giving me money without me
-      earning it makes me uncomfortable"
-    - Yes, uncomfortable.
-    - '*sighs* Why?'
+    - Oh, so this is like a drawing of your house? So then I guess you painted it
+      blue?
+    - Huh?
+    - "What do you mean it\u2019s a photo?"
+    - "No, that's clearly a drawing. I can even tell that you used crayon, and look!
+      The house has one window and a door and it\u2019s not even three dimensional."
+    - "\u2026"
   goodbye:
-    goodEnding: Suagr Daddy is happy
-    badEnding: Suagr Daddy is sad
-  correctResponse: 0200000001000000
+    goodEnding: Poorly Drawn Clown is happy
+    badEnding: Poorly Drawn Clown is sad
+  correctResponse: 0100000002000000
   numChoices: 2
   index: 0
   outdex: 0
