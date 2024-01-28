@@ -32,7 +32,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -90,28 +89,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Generic1
-  dialogue:
-  - Happy Reaction Here
-  - Bad Reaction Here
-  - Dialogue 1 here
-  - Dialogue 2 here
-  - Dialogue 3 here
-  - Dialogue 4 here
-  - Dialogue 5 here
+  dialogues:
+  - question: 
+    dialogueOne:
+    - h
+    - e
+    - l
+    - l
+    - 0
+    dialogueTwo: []
+  - question: HM
+    dialogueOne:
+    - h
+    - e
+    - l
+    - l
+    - 0
+    dialogueTwo: []
   responses:
-  - Response 1 Dialogue 1
-  - Response 2 Dialogue 1
-  - Response 1  Dialogue 2
-  - Response 2  Dialogue 2
-  - Response 1 Dialogue 3
-  - Response 2  Dialogue 3
-  - Response 1  Dialogue 4
-  - Response 2  Dialogue 4
-  - Response 1 Dialogue 5
-  - Response 2 Dialogue 6
+  - choice1: 
+    choice2: 
+    responsesOne:
+    - wh
+    - e
+    - e
+    - e
+    - e
+    responsesTwo: []
+  - choice1: no
+    choice2: y
+    responsesOne:
+    - b
+    responsesTwo: []
   correctResponse: 0100000002000000010000000200000001000000
+  numChoices: 1
+  index: 0
+  outdex: 0
+  good: 1
   angry: {fileID: 0}
   happy: {fileID: 0}
   neutral: {fileID: 0}
+  likeablility: 0
   red: 0
   green: 0
