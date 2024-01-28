@@ -167,6 +167,7 @@ MonoBehaviour:
   angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
   happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
   neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  img: {fileID: 5082205642723180744}
   likeablility: 0
   red: 2
   green: 1

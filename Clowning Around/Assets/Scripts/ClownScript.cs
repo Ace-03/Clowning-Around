@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClownScript : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class ClownScript : MonoBehaviour
     public Sprite angry;
     public Sprite happy;
     public Sprite neutral;
+    public Image img;
 
     [Header("Stats")]
     public int likeablility = 0;
@@ -43,6 +45,7 @@ public class ClownScript : MonoBehaviour
         onChoice = false;
         PlayerTalk();
         //Set Sprite to bad
+        img.sprite = angry;
     }
     public void OnGoodResponse()
     {
@@ -53,6 +56,7 @@ public class ClownScript : MonoBehaviour
         PlayerTalk();
 
         //set sprite to happy
+        img.sprite = happy;
     }
     public void OnExit() { }
     public void Next()
@@ -63,6 +67,7 @@ public class ClownScript : MonoBehaviour
         talked = 0;
         if (outdex <= numChoices)
         {
+            img.sprite = neutral;
             GameManager.instance.SetText(Name, dialogues[outdex].question, responses[outdex].choice1, responses[outdex].choice2);
             whotalked = false;
         }

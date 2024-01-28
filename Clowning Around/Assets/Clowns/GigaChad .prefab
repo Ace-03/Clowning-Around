@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
+  m_AnchoredPosition: {x: 0, y: 94}
+  m_SizeDelta: {x: 839, y: 839}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &3179920216973783217
 CanvasRenderer:
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3869650606766680645, guid: 0a9b7a31a2ef0684c97d70918320bdc8, type: 3}
+  m_Sprite: {fileID: -6338528366859974393, guid: 0a687d115bb127f4587486cfba3cb63d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -170,9 +170,10 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 0}
-  happy: {fileID: 0}
-  neutral: {fileID: 0}
+  angry: {fileID: -3869650606766680645, guid: 0a9b7a31a2ef0684c97d70918320bdc8, type: 3}
+  happy: {fileID: -3869650606766680645, guid: 0a9b7a31a2ef0684c97d70918320bdc8, type: 3}
+  neutral: {fileID: -6338528366859974393, guid: 0a687d115bb127f4587486cfba3cb63d, type: 3}
+  img: {fileID: 5609762169867788449}
   likeablility: 0
   red: 3
   green: 0

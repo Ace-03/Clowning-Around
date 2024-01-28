@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 167}
   m_SizeDelta: {x: 534, y: 866}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
@@ -158,9 +158,10 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
-  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
-  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  angry: {fileID: -8990918535976925985, guid: ddd909b7a839e2f4eaf62ac66ece4a95, type: 3}
+  happy: {fileID: -2659892910149050312, guid: a2ed347bff5562144b8d9d44d593c1b8, type: 3}
+  neutral: {fileID: -9016447882297609701, guid: fc6e554239d18dd4a9282263277cba90, type: 3}
+  img: {fileID: 5082205642723180744}
   likeablility: 0
   red: 2
   green: 1

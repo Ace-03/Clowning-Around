@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 815, y: 999}
+  m_AnchoredPosition: {x: 0, y: 263}
+  m_SizeDelta: {x: 517, y: 634}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &5082205642723180745
 CanvasRenderer:
@@ -157,9 +157,10 @@ MonoBehaviour:
   outdex: 0
   good: 1
   CurChoice: 0
-  angry: {fileID: 7043505151532316097, guid: 5e2532d6e1e993045bc5e18ba13f788d, type: 3}
-  happy: {fileID: 4277866134631893368, guid: 8916ea7deee0a3a4082f2c3e642263c5, type: 3}
-  neutral: {fileID: -7191330814947706721, guid: 7e4d263156cdfef43a82995462b9711f, type: 3}
+  angry: {fileID: 4722060762128076173, guid: ea9fe146f8baeca4fae70f1fad5e74d6, type: 3}
+  happy: {fileID: -4681963590016404009, guid: be40f5943e5a6284899680d7f3dafb47, type: 3}
+  neutral: {fileID: -568555181199032562, guid: deb68dd41e1e7eb4c90594b7811e2e41, type: 3}
+  img: {fileID: 5082205642723180744}
   likeablility: 0
   red: 1
   green: 3
