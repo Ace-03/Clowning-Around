@@ -26,6 +26,7 @@ public class ClownScript : MonoBehaviour
     public int red;
     public int green;
 
+    public bool onChoice = false;
     private int talked = 0;
     public bool whotalked = false;
 
@@ -38,6 +39,7 @@ public class ClownScript : MonoBehaviour
     {
         CurChoice++;
         good = false;
+        onChoice = false;
         PlayerTalk();
         //Set Sprite to bad
     }
@@ -45,6 +47,7 @@ public class ClownScript : MonoBehaviour
     {
         CurChoice++;
         likeablility++;
+        onChoice = false;
         good = true;
         PlayerTalk();
 
@@ -75,7 +78,7 @@ public class ClownScript : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space))
+        if(!onChoice && Input.GetKeyUp(KeyCode.Space))
         {
             if (whotalked)
             {

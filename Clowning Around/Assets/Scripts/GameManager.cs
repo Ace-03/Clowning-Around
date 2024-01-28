@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public Button responseTwo;
     public Button reject;
     public Button like;
+    public GameObject TransitionScreen;
 
     public int cur = 0;
     public ClownScript clown;
@@ -79,6 +80,7 @@ public class GameManager : MonoBehaviour
         {
             bachelors[cur].SetActive(true);
             clown = bachelors[cur].transform.GetComponent<ClownScript>();
+            clown.onChoice = true;
             clown.OnEnter();
         }
         else if(cur == 5)
@@ -93,7 +95,7 @@ public class GameManager : MonoBehaviour
 
         Name.text = nameText;
         DialogueBox.text = speech;
-
+        clown.onChoice = false;
         responseOne.interactable = false;
         responseTwo.interactable = false;
 
@@ -105,7 +107,7 @@ public class GameManager : MonoBehaviour
 
         Name.text = nameText;
         DialogueBox.text = speech;
-
+        clown.onChoice = true;
         responseOne.interactable = true;
         responseTwo.interactable = true;
 
@@ -129,6 +131,7 @@ public class GameManager : MonoBehaviour
     {
         reject.interactable = !reject.interactable;
         like.interactable = !like.interactable;
+        clown.onChoice = !clown.onChoice;
     }
 
     public void Like()
@@ -136,12 +139,29 @@ public class GameManager : MonoBehaviour
         redFlags += clown.red;
         greenFlags += clown.green;
         Swipe();
-        Next();
+        Transition();
     }
 
     public void Reject()
     {
         Swipe();
-        Next();
+        Transition();
+    }
+
+    public void Transition()
+    {
+        clown.onChoice = true;
+        TransitionScreen.SetActive(true);
+        Invoke("Next", 1f);
+    }
+
+    public void TransitionButton()
+    {
+        Invoke("StartNext", 1.5f);
+    }
+    public void StartNext()
+    {
+        TransitionScreen.SetActive(false);
+        clown.onChoice = false;
     }
 }
