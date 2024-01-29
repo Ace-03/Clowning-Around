@@ -200,7 +200,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EmoClown_Sad_0: -2640277286815643600
+      EmoClown_Sad_1: -8729630148529061057
+      EmoClown_Sad_2: 8961487509198756223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

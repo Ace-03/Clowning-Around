@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mexican-Clown_Happy_0: -4681963590016404009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

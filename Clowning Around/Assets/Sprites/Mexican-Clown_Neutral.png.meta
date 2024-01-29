@@ -176,7 +176,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mexican-Clown_Neutral_0: 3991468270603648879
+      Mexican-Clown_Neutral_1: -568555181199032562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

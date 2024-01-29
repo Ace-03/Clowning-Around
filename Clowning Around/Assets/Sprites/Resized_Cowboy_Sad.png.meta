@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Resized_Cowboy_Sad_0: 2339704184128926929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

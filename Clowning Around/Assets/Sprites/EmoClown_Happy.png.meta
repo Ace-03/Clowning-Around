@@ -200,7 +200,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EmoClown_Happy_0: -3030440439836020587
+      EmoClown_Happy_1: -2825009782264140362
+      EmoClown_Happy_2: 9028094229493249933
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

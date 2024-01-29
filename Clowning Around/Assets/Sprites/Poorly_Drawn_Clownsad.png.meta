@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Poorly_Drawn_Clownsad_0: 3543356920405887103
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

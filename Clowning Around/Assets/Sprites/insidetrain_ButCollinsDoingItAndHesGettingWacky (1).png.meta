@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      insidetrain_ButCollinsDoingItAndHesGettingWacky (1)_0: -5045442866523930295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

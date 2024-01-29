@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Poorly_Drawn_Clownneutral_0: -3043186698250464521
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

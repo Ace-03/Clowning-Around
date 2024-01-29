@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mexican-Clown_Sad_0: 4722060762128076173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
